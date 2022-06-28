@@ -1,4 +1,4 @@
-export * from './sketch';
+export * from './sketch/sketchOptions';
 export * from './constants';
 export * from './interfaces';
 export * from './symbol';

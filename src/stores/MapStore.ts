@@ -6,7 +6,7 @@ import GraphicsLayer from '@arcgis/core/layers/GraphicsLayer';
 import Graphic from '@arcgis/core/Graphic';
 import Polygon from '@arcgis/core/geometry/Polygon';
 import SketchOnMap from '../helpers/sketch/SketchOnMap';
-import { sketchOptions } from '../helpers/sketch';
+import { sketchOptions } from '../helpers';
 import { noFlyZoneSymbol, noFlyZoneGeometry } from '../helpers';
 import SketchEvents from '../helpers/sketch/SketchEvents';
 

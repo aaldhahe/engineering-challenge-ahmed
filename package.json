@@ -10,6 +10,7 @@
     "build": "NODE_ENV=production webpack",
     "lint": "eslint . --ext .ts,.tsx",
     "test": "jest",
+    "test:watch": "jest src --silent --coverage --watch",
     "prettier": "prettier --config ./prettier.config.js --loglevel warn --write src/**/*.*",
     "predeploy": "yarn build",
     "deploy": "gh-pages -d build"
