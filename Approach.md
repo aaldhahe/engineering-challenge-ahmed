@@ -48,6 +48,7 @@ Selecting Shape highlighted in blue lines above will result in below image
 ![Moved Intersection Shape](./doc-images/Intersection-Shape-Moved.png)
 
 If you select shape highlighted in green lines it will result in below image
+
 ![Flight Shape Moved](./doc-images/Flight-Shape-Selected.png)
 
 
