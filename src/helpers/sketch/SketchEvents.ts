@@ -98,7 +98,6 @@ export default class SketchEvents {
         // HashMap to access corresponding intersection for the shape, Time complexity O(1)
         // We want to remove the intersection shape from the sketch layer
         // And also remove the current shape we are updating from being a key in intersection hashmap
-        // Because we just removed the intersection from the sketch layer
         this.sketchLayer.remove(removeFromLayer);
         this.intersectionMap.delete(removeFromHashMap);
     }
