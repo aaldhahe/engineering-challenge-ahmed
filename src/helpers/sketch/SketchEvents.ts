@@ -104,7 +104,7 @@ export default class SketchEvents {
     }
 
     determineCorrespondingIntersectionShape = (graphics: __esri.Graphic[]): GraphicHashMapAndLayer => {
-        let graphicForLayerAndHashMap = {} as GraphicHashMapAndLayer;
+        const graphicForLayerAndHashMap = {} as GraphicHashMapAndLayer;
         for (let i = 0; i < graphics.length; i++) {
             const graphic = this.intersectionMap.get(graphics[i]);
             if (graphic) {
